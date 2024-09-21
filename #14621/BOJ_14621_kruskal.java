@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class BOJ_14621 {
+public class BOJ_14621_kruskal {
 
     static int N, M, cnt = 0, ans = 0;
     static int[] parents;
@@ -97,14 +97,3 @@ public class BOJ_14621 {
     }
 
 }
-
-
-/*
-
-1. 남초 대학교 - 여초 대학교 연결만 가능
-2. 어떤 대학교에서든 모든 대학교로 이동 가능
-3. 사심 경로의 길이는 최단 거리
-
-
-
- */
